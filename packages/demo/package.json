@@ -1,0 +1,25 @@
+{
+  "name": "@figma-mcp-demo/demo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@figma-mcp-demo/ui": "workspace:*"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^8",
+    "@storybook/react": "^8",
+    "@storybook/react-vite": "^8",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "react": "^18",
+    "react-dom": "^18",
+    "storybook": "^8",
+    "typescript": "^5",
+    "vite": "^5"
+  }
+}
